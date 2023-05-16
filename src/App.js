@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigate, Outlet } from "react-router-dom";
+import { Navigate, Outlet, Link } from "react-router-dom";
 import "./App.css";
 import AppRouter from "./AppRouter";
 
@@ -25,7 +25,8 @@ function App() {
         //TODO ROUTER
         <>
             <AppRouter>
-                <RequireAuth></RequireAuth>
+                <RequireAuth>
+                </RequireAuth>
             </AppRouter>
             <Outlet />
         </>

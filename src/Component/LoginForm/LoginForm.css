@@ -1,0 +1,42 @@
+.box-form{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:1rem;
+}
+
+.box-form input{
+    padding: .5rem;
+}
+
+
+form{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    width:60%;
+    margin: auto auto;
+}
+
+form button{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form button:hover{
+    background-color: #45a049;
+}
+
+.credentials-and-password-container{
+    display:flex;
+    justify-content: flex-end;
+}
+
+h1{
+    text-align: center;
+}
